@@ -1,0 +1,35 @@
+{
+    "name": "testprocessmaker/pmql",
+    "version": "1.1.3",
+    "description": "An Eloquent trait that provides the pmql scope to allow converting simple sql criteria clauses to Eloquent",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Taylor Dondich",
+            "email": "taylor@processmaker.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ProcessMaker\\Query\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ProcessMaker\\Query\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+            ]
+        }
+    },
+    "require": {
+        "laravel/framework": "~5.7.0|~5.8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^7.0"
+    }
+}
